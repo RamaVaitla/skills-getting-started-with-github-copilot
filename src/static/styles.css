@@ -5,6 +5,23 @@
   font-family: Arial, sans-serif;
 }
 
+  /* Participants list without bullets and delete icon styling */
+  .participants-list.no-bullets {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .delete-icon {
+    cursor: pointer;
+    color: #d11a2a;
+    margin-left: 8px;
+    font-size: 1.1em;
+    transition: color 0.2s;
+  }
+  .delete-icon:hover {
+    color: #a00;
+  }
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
